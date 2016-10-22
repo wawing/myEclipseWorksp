@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38355" started-at="2016-05-02T16:19:11Z" finished-at="2016-05-02T16:19:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38355" started-at="2016-05-02T16:19:11Z" finished-at="2016-05-02T16:19:49Z">
+      <class name="com.avtech.Test.RegistrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.avtech.Test.RegistrationTest@402f32ff]" name="setUp" is-config="true" duration-ms="19832" started-at="2016-05-02T12:19:11Z" finished-at="2016-05-02T12:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerByExcel(java.lang.String, java.lang.String)[pri:0, instance:com.avtech.Test.RegistrationTest@402f32ff]" name="registerByExcel" duration-ms="13852" started-at="2016-05-02T12:19:33Z" data-provider="RegistrationData" finished-at="2016-05-02T12:19:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classExcel001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[classpwd0001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerByExcel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.avtech.Test.RegistrationTest@402f32ff]" name="tearDown" is-config="true" duration-ms="1877" started-at="2016-05-02T12:19:47Z" finished-at="2016-05-02T12:19:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.avtech.Test.RegistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
